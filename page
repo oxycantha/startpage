@@ -1,0 +1,101 @@
+<!--
+I'm new, go easy...
+
+Give Credit were it's due, The_Bugs
+-->
+<html>
+	<head>
+		<title>rain</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="search">
+			<form action="javascript:search()">
+				<input id="search" value="" placeholder="Search..." type="input" spellcheck="false" autofocus/>
+			</form>
+		</div>
+		<div class="container">
+					<div class="button-1">
+						<p>General</p>
+						<div class="menu-1">
+							<a href="#">Zamzar</a><br><br>
+							<a href="#">The PirateBay</a><br><br>
+							<a href="#">Torrentz</a><br><br>
+							<a href="#">Ookla</a><br><br>
+							<a href="#">url Shortener</a><br><br>
+							<a href="#">PNC Bank</a><br><br>
+							<a href="#">YouTube - mp3</a><br><br>
+							<a href="#"></a><br><br>
+							<a href="#"></a><br><br>
+							<a href="#"></a><br><br>
+						</div>
+					</div>
+					<div class="button-2">
+						<p>Social</p>
+						<div class="menu-2">
+							<a href="https://www.youtube.com/">YouTube</a><br><br>
+							<a href="https://www.amazon.com/">Amazon</a><br><br>
+							<a href="https://www.tumblr.com/dashboard">Tumblr</a><br><br>
+							<a href="https://www.masterani.me/">Anime</a><br><br>
+							<a href="http://steamcommunity.com/">Steam</a><br><br>
+							<a href="https://twitter.com/">Twitter</a><br><br>
+							<a href="https://www.youtube.com/watch?v=AQBh9soLSkI">Lofi Radio</a><br><br>
+							<a href="#"></a><br><br>
+							<a href="#"></a><br><br>
+							<a href="#"></a><br><br>
+						</div>
+					</div>
+					<div class="button-3">
+						<p>Resources</p>
+						<div class="menu-3">
+							<a href="https://catbox.moe/">Catbox.moe</a><br><br>
+							<a href="https://nyaa.si/">Nyaa.si</a><br><br>
+							<a href="https://www.mediafire.com/">Mediafire</a><br><br>
+							<a href="https://www.dropbox.com/">Dropbox</a><br><br>
+							<a href="https://safe.moe/">Safe.moe</a><br><br>
+							<a href="https://www.flaticon.com/">Flaticon</a><br><br>
+							<a href="#"></a><br><br>
+							<a href="#"></a><br><br>
+							<a href="#"></a><br><br>
+							<a href="#"></a><br><br>
+						</div>
+					</div>
+					<div class="button-4">
+						<p>School</p>
+						<div class="menu-4">
+							<a href="http://pgcps.org/aboutpgcps.aspx">Website</a><br><br>
+							<a href="https://clever.com/">Clever</a><br><br>
+							<a href="http://www1.pgcps.org/walkermill/PB_walkermill.aspx?pageid=241486">Teachers</a><br><br>
+							<a href="https://gmail.pgcps.org/">Gmail</a><br><br>
+							<a href="https://family.sis.pgcps.org/schoolmax/reset.do;jsessionid=1VQChJDG19kHmttWjSnmGQzXJ9Ry5rNyxhxzTP1vxf47BdQzqJn5!1433342755?0uw3YEa.aU7zaju.xnn.xGOSq-SS-GS%2BS0_0D_GO.0hdgwUVm3sEVzWgkz13ShSSGF6qOO0hd_OgwEkeUs3uYAEEsaU7.LUazsrgjumkz13-SgsUWVjUVm3mWgwkmpwUVm31mLUjsegMmr3gYEjWekr3%3Dx">Grades</a><br><br>
+							<a href="#"></a><br><br>
+							<a href="#"></a><br><br>
+							<a href="#"></a><br><br>
+							<a href="#"></a><br><br>
+							<a href="#"></a><br><br>
+						</div>
+					</div>
+					<div class="button-5">
+						<p>4chan</p>
+						<div class="menu-5">
+							<a href="#">Main</a><br><br>
+							<a href="#">/wg/</a><br><br>
+							<a href="#">/gd/</a><br><br>
+							<a href="#">/b/</a><br><br>
+							<a href="#">/pol/</a><br><br>
+							<a href="#">/soc/</a><br><br>
+							<a href="#">/gif/</a><br><br>
+							<a href="#">/r9k/</a><br><br>
+							<a href="#"></a><br><br>
+							<a href="#"></a><br><br>
+						</div>
+					</div>
+		</div>
+		<script>
+			function search(){
+				var query = document.getElementById('search').value;
+				window.location = 'https://www.google.com/#q=' + query;
+			}
+		</script>
+	</body>
+</html>
